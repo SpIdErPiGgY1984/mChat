@@ -90,8 +90,12 @@ $lang = array_merge($lang, array(
 	'MCHAT_MESSAGE_NUM_CUSTOM_EXPLAIN'				=> '<em>Er is een limiet van 5 tot 50. Standaard is 10</em>',
 	'MCHAT_MESSAGE_NUM_INDEX'						=> 'Aanvankelijke aantal berichten weer te geven op de indexpagina',
 	'MCHAT_MESSAGE_NUM_INDEX_EXPLAIN'				=> '<em>Er is een limiet van 5 tot 15. Standaard is 10</em>',
-	'MCHAT_MESSAGE_NUM_ARCHIVE'						=> 'Aantal berichten weer te geven op de archiefpagina',
-	'MCHAT_MESSAGE_NUM_ARCHIVE_EXPLAIN'				=> 'Het maximum aantal berichten per pagina om weer te geven op de archiefpagina.<br /><em>Er is een limiet van 10 tot 100. Standaard is 25.</em>',
+	'MCHAT_MESSAGE_NUM_ARCHIVE'						=> 'Aantal berichten weer te geven op de archief pagina',
+	'MCHAT_MESSAGE_NUM_ARCHIVE_EXPLAIN'				=> 'Het maximum aantal berichten om weer te geven op de archief pagina.<br /><em>Er is een limiet van 10 tot 100. Standaard is 25.</em>',	
+	'MCHAT_ARCHIVE_SORT'							=> 'Berichten sortering',
+	'MCHAT_ARCHIVE_SORT_TOP_BOTTOM'					=> 'Sorteer berichten altijd van boven naar onder',
+	'MCHAT_ARCHIVE_SORT_BOTTOM_TOP'					=> 'Sorteer berichten altijd van onder naar boven',
+	'MCHAT_ARCHIVE_SORT_USER'						=> 'Sorteer berichten afhangend van de gebruikers <em>Locatie van nieuwe berichten</em> voorkeuren',
 	'MCHAT_FLOOD_TIME'								=> 'Flood tijd',
 	'MCHAT_FLOOD_TIME_EXPLAIN'						=> 'Het aantal seconden dat een gebruiker moet wachten alvorens een nieuw bericht in de chat te plaatsen.<br /><em>Er is een limiet van 0 tot 60 seconden. De standaard is 0. Zet op 0 om deze functie uit te schakelen.</em>',
 	'MCHAT_EDIT_DELETE_LIMIT'						=> 'Tijdslimiet voor het bewerken en verwijderen van berichten',
@@ -119,6 +123,9 @@ $lang = array_merge($lang, array(
 	'MCHAT_PURGE'									=> 'Verwijder nu alle berichten',
 	'MCHAT_PURGE_CONFIRM'							=> 'Bevestig het verwijderen van alle berichten',
 	'MCHAT_PURGED'									=> 'Alle mChat berichten werden succesvol verwijderd',
+	// '%1$s' contains 'Retain posts' and 'Delete posts' respectively
+	'MCHAT_RETAIN_MESSAGES'							=> '%1$s en behoud mChat-berichten',
+	'MCHAT_DELETE_MESSAGES'							=> '%1$s en verwijder mChat berichten',
 
 	// Error reporting
 	'TOO_LONG_MCHAT_BBCODE_DISALLOWED'				=> 'De niet toegestaande bbcode waarde is te lang.',
