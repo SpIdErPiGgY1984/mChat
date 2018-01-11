@@ -5,7 +5,7 @@
  * @package phpBB Extension - mChat
  * @copyright (c) 2016 dmzx - http://www.dmzx-web.net
  * @copyright (c) 2016 kasimi - https://kasimi.net
- * Nederlandse vertaling @ Solidjeuh <http://www.froddelpower.be>  
+ * Nederlandse vertaling @ Solidjeuh <http://www.muziekpromo.net> 
  * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
  *
  */
@@ -103,7 +103,6 @@ $lang = array_merge($lang, array(
 	'MCHAT_MAX_MESSAGE_LENGTH'						=> 'Maximum bericht lengte',
 	'MCHAT_MAX_MESSAGE_LENGTH_EXPLAIN'				=> 'Maximun aantal karakters dat zijn toegestaan per gepost bericht.<br /><em>Er is een limiet van 0 tot 1000. Standaard waarde is 500. Zet op 0 op uit te schakelen.</em>',
 	'MCHAT_CUSTOM_PAGE'								=> 'Schakel aangepaste pagina in',
-	'MCHAT_CUSTOM_PAGE_EXPLAIN'						=> 'Sta het gebruik van een aangepaste pagina toe',
 	'MCHAT_CUSTOM_HEIGHT'							=> 'Aangepaste pagina hoogte',
 	'MCHAT_CUSTOM_HEIGHT_EXPLAIN'					=> 'De hoogte van de chat in pixels op de aangepaste pagina.<br /><em>Er is een limiet van 50 tot 1000. Standaard waarde is 350.</em>',
 	'MCHAT_BBCODES_DISALLOWED'						=> 'Weiger bbcodes',
@@ -117,13 +116,17 @@ $lang = array_merge($lang, array(
 	'MCHAT_OVERRIDE_MIN_POST_CHARS'					=> 'overschrijf minimum karakters limiet',
 	'MCHAT_OVERRIDE_MIN_POST_CHARS_EXPLAIN'			=> 'Zet op ja om het forums minimum karakter limiet te overschrijven voor chat berichten',
 
+	'MCHAT_POSTS_AUTH_CHECK'						=> 'Vereist gebruikers permissies',
+	'MCHAT_POSTS_AUTH_CHECK_EXPLAIN'				=> 'Indien ingesteld op ja zullen gebruikers die mChat niet kunnen gebruiken geen post/login notificatie berichten aanmaken..',
+
 	'MCHAT_WHOIS_REFRESH'							=> 'Wie is aan het chatten vernieuwings interval',
 	'MCHAT_WHOIS_REFRESH_EXPLAIN'					=> 'Aantal seconden voor Wie is aan het chatten vernieuwd.<br /><em>Er is een limiet van 10 tot 300 seconden. Standaard waarde is 60.</em>',
 	'MCHAT_SOUND'									=> 'Speel geluid af voor nieuwe, bewerkte en verwijderde berichten',
 	'MCHAT_PURGE'									=> 'Verwijder nu alle berichten',
 	'MCHAT_PURGE_CONFIRM'							=> 'Bevestig het verwijderen van alle berichten',
 	'MCHAT_PURGED'									=> 'Alle mChat berichten werden succesvol verwijderd',
-	// '%1$s' contains 'Retain posts' and 'Delete posts' respectively
+	
+    // '%1$s' contains 'Retain posts' and 'Delete posts' respectively
 	'MCHAT_RETAIN_MESSAGES'							=> '%1$s en behoud mChat-berichten',
 	'MCHAT_DELETE_MESSAGES'							=> '%1$s en verwijder mChat berichten',
 

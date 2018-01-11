@@ -5,7 +5,7 @@
  * @package phpBB Extension - mChat
  * @copyright (c) 2016 dmzx - http://www.dmzx-web.net
  * @copyright (c) 2016 kasimi - https://kasimi.net
- * Nederlandse vertaling @ Solidjeuh <http://www.froddelpower.be>   
+ * Nederlandse vertaling @ Solidjeuh <http://www.muziekpromo.net> 
  * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
  *
  */
