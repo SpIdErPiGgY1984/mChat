@@ -46,7 +46,7 @@ $lang = array_merge($lang, array(
 	'MCHAT_EDIT'					=> 'Bewerk',
 	'MCHAT_EDITINFO'				=> 'Bewerk het onderstaande bericht.',
 	'MCHAT_NEW_CHAT'				=> 'Nieuw chat bericht!',
-	'MCHAT_SEND_PM'					=> 'Verzend prive bericht',
+	'MCHAT_SEND_PM'					=> 'Verzend privé bericht',
 	'MCHAT_LIKE'					=> 'Vind dit bericht leuk',
 	'MCHAT_LIKES'					=> 'Vind dit bericht leuk',
 	'MCHAT_FLOOD'					=> 'Je kan niet zo snel een nieuw bericht posten na je vorige bericht.',
@@ -63,7 +63,7 @@ $lang = array_merge($lang, array(
 	'MCHAT_MESSAGE_DELETED'			=> 'Dit bericht werd verwijderd.',
 	'MCHAT_OK'						=> 'OK',
 	'MCHAT_PAUSE'					=> 'Gepauzeerd',
-	'MCHAT_PERMISSIONS'				=> 'Verander gebruiker’s permissie',
+	'MCHAT_PERMISSIONS'				=> 'Verander gebruikers permissie',
 	'MCHAT_REFRESHING'				=> 'Vernieuwen…',
 	'MCHAT_REFRESH_NO'				=> 'Update is uit',
 	'MCHAT_REFRESH_YES'				=> 'Updates iedere <strong>%1$d</strong> seconden',
@@ -83,7 +83,7 @@ $lang = array_merge($lang, array(
 
 	// These messages are formatted with JavaScript, hence {} and no %d
 	'MCHAT_CHARACTER_COUNT'			=> '<strong>{current}</strong> karakters',
-	'MCHAT_CHARACTER_COUNT_LIMIT'	=> '<strong>{current}</strong> out of {max} karakters',
+	'MCHAT_CHARACTER_COUNT_LIMIT'	=> '<strong>{current}</strong> van de {max} karakters',
 	'MCHAT_SESSION_ENDS_JS'			=> 'Chat sessie eindigt in {timeleft}',
 	'MCHAT_MENTION'					=> ' @{username} ',
 

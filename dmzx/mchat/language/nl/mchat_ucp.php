@@ -61,7 +61,7 @@ $lang = array_merge($lang, array(
 	'MCHAT_BOTTOM'					=> 'Onder',
 	'MCHAT_TOP'						=> 'Boven',
 
-	'MCHAT_POSTS_TOPIC'				=> 'Toon nieuwe topics',
+	'MCHAT_POSTS_TOPIC'				=> 'Toon nieuwe onderwerpen',
 	'MCHAT_POSTS_REPLY'				=> 'Toon nieuwe reacties',
 	'MCHAT_POSTS_EDIT'				=> 'Toon bewerkte posten',
 	'MCHAT_POSTS_QUOTE'				=> 'Toon geciteerde posten',
