@@ -17,7 +17,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -35,7 +35,7 @@ if (empty($lang) || !is_array($lang))
 // Some characters for use
 // ’ » “ ” …
 
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	// Module titles
 	'ACP_CAT_MCHAT'					=> 'mChat',
 	'ACP_CAT_MCHAT_USER_CONFIG'		=> 'mChat in Moderatorpaneel',
@@ -43,9 +43,9 @@ $lang = array_merge($lang, array(
 	'ACP_MCHAT_GLOBALUSERSETTINGS'	=> 'Globale gebruikers instellingen',
 
 	// Log entries (%1$s is replaced with the user name who triggered the event)
-	'LOG_MCHAT_CONFIG_UPDATE'		=> '<strong>mChat configuratie geupdate</strong><br />» %1$s',
-	'LOG_MCHAT_TABLE_PRUNED'		=> '<strong>mChat berichten opgekuist: %2$d</strong><br />» %1$s',
-	'LOG_MCHAT_TABLE_PURGED'		=> '<strong>mChat berichten gezuiverd</strong><br />» %1$s',
-	'LOG_DELETED_MCHAT'				=> '<strong>mChat bericht verwijderd</strong><br />» %1$s',
-	'LOG_EDITED_MCHAT'				=> '<strong>mChat bericht bewerkt</strong><br />» %1$s',
-));
+	'LOG_MCHAT_CONFIG_UPDATE'		=> '<strong>mChat configuratie geüpdatet</strong><br>» %1$s',
+	'LOG_MCHAT_TABLE_PRUNED'		=> '<strong>mChat berichten opgekuist: %2$d</strong>',
+	'LOG_MCHAT_TABLE_PURGED'		=> '<strong>mChat berichten gezuiverd</strong><br>» %1$s',
+	'LOG_DELETED_MCHAT'				=> '<strong>mChat bericht verwijderd</strong><br>» %1$s',
+	'LOG_EDITED_MCHAT'				=> '<strong>mChat bericht bewerkt</strong><br>» %1$s',
+]);

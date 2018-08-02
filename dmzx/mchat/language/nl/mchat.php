@@ -17,7 +17,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -35,7 +35,7 @@ if (empty($lang) || !is_array($lang))
 // Some characters for use
 // ’ » “ ” …
 
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'MCHAT_ADD'						=> 'Verzend',
 	'MCHAT_ARCHIVE'					=> 'Archief',
 	'MCHAT_ARCHIVE_PAGE'			=> 'mChat Archief',
@@ -48,7 +48,7 @@ $lang = array_merge($lang, array(
 	'MCHAT_NEW_CHAT'				=> 'Nieuw chat bericht!',
 	'MCHAT_SEND_PM'					=> 'Verzend privé bericht',
 	'MCHAT_LIKE'					=> 'Vind dit bericht leuk',
-	'MCHAT_LIKES'					=> 'Vind dit bericht leuk',
+	'MCHAT_LIKES'					=> 'Vinden dit bericht leuk',
 	'MCHAT_FLOOD'					=> 'Je kan niet zo snel een nieuw bericht posten na je vorige bericht.',
 	'MCHAT_FOE'						=> 'Dit bericht komt van <strong>%1$s</strong>. Deze gebruiker staat in je negeer lijst.',
 	'MCHAT_RULES'					=> 'Regels',
@@ -64,30 +64,26 @@ $lang = array_merge($lang, array(
 	'MCHAT_OK'						=> 'OK',
 	'MCHAT_PAUSE'					=> 'Gepauzeerd',
 	'MCHAT_PERMISSIONS'				=> 'Verander gebruikers permissie',
-	'MCHAT_REFRESHING'				=> 'Vernieuwen…',
-	'MCHAT_REFRESH_NO'				=> 'Update is uit',
-	'MCHAT_REFRESH_YES'				=> 'Updates iedere <strong>%1$d</strong> seconden',
-	'MCHAT_RESPOND'					=> 'Reageer op gebruiker',
-	'MCHAT_SESSION_ENDS'			=> 'Chat sessie eindigt in %1$s',
-	'MCHAT_SESSION_OUT'				=> 'Chat sessie is vervallen',
+	'MCHAT_REFRESHING'				=> 'Vernieuwen…',	'MCHAT_REFRESHING'				=> 'Vernieuwen…',
+	'MCHAT_RESPOND'					=> 'Reageren op gebruiker',
 	'MCHAT_SMILES'					=> 'Smileys',
-	'MCHAT_TOTALMESSAGES'			=> 'Totale berichten: <strong>%1$d</strong>',
+	'MCHAT_TOTALMESSAGES'			=> 'Totaal aantal berichten: <strong>%1$d</strong>',
 	'MCHAT_USESOUND'				=> 'Speel geluid',
-	'MCHAT_COLLAPSE_TITLE'			=> 'Schakel mChat in of uit',
+	'MCHAT_SOUND_ON'				=> 'Geluid staan aan',
+	'MCHAT_SOUND_OFF'				=> 'Geluid staat uit',
+	'MCHAT_ENTER'					=> 'Gebruik Ctrl/Cmd + Enter voor de alternatieve actie',
+	'MCHAT_ENTER_SUBMIT'			=> 'Enter verzendt het bericht',
+	'MCHAT_ENTER_LINEBREAK'			=> 'Enter voegt een nieuwe regel toe',
+	'MCHAT_COLLAPSE_TITLE'			=> 'Schakel zichtbaarheid van mChat in',
 	'MCHAT_WHO_IS_REFRESH_EXPLAIN'	=> 'Vernieuwd iedere <strong>%1$d</strong> seconden',
-	'MCHAT_MINUTES_AGO'				=> array(
+	'MCHAT_MINUTES_AGO'				=> [
 		0 => 'nu',
 		1 => '%1$d minuut geleden',
 		2 => '%1$d minuten geleden',
-	),
+	],
 
 	// These messages are formatted with JavaScript, hence {} and no %d
 	'MCHAT_CHARACTER_COUNT'			=> '<strong>{current}</strong> karakters',
 	'MCHAT_CHARACTER_COUNT_LIMIT'	=> '<strong>{current}</strong> van de {max} karakters',
-	'MCHAT_SESSION_ENDS_JS'			=> 'Chat sessie eindigt in {timeleft}',
 	'MCHAT_MENTION'					=> ' @{username} ',
-
-	// Custom translations for administrators
-	'MCHAT_RULES_MESSAGE'			=> '',
-	'MCHAT_STATIC_MESSAGE'			=> '',
-));
+]);

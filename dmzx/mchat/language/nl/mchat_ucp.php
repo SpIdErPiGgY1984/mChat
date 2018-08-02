@@ -17,7 +17,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -35,7 +35,7 @@ if (empty($lang) || !is_array($lang))
 // Some characters for use
 // ’ » “ ” …
 
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'MCHAT_PREFERENCES'				=> 'mChat voorkeuren',
 	'MCHAT_NO_SETTINGS'				=> 'U bent niet bevoegd om instellingen aan te passen.',
 
@@ -49,25 +49,23 @@ $lang = array_merge($lang, array(
 	'MCHAT_CHAT_AREA'				=> 'Input type',
 	'MCHAT_INPUT_AREA'				=> 'Input veld',
 	'MCHAT_TEXT_AREA'				=> 'Tekst veld',
-	'MCHAT_POSTS'					=> 'Toon nieuwe posten (momenteel allemaal uitgeschakeld, kan ingeschakeld worden in de mChat globale instellingen sectie in het beheerderspaneel)',
-	'MCHAT_DISPLAY_CHARACTER_COUNT'	=> 'Toon het aantal karakters tijdens het typen van een bericht',
-	'MCHAT_RELATIVE_TIME'			=> 'Toon relatieve tijd voor een nieuw bericht',
-	'MCHAT_RELATIVE_TIME_EXPLAIN'	=> 'Toont “nu”, “1 minuut geleden” en zo verder voor elk bericht. Zet op <em>Nee</em> om altijd de volledige tijd weer te geven.',
-	'MCHAT_PAUSE_ON_INPUT'			=> 'Pauze tijdens typen',
-	'MCHAT_PAUSE_ON_INPUT_EXPLAIN'	=> 'Update de chat niet tijdens het typen van een bericht',
+	'MCHAT_POSTS'					=> 'Toon nieuwe berichten. (momenteel allemaal uitgeschakeld, kan worden ingeschakeld in de sectie mChat Algemene instellingen in het beheerderspaneel)',
+	'MCHAT_DISPLAY_CHARACTER_COUNT'	=> 'Geef het aantal karakters weer bij het typen van een bericht',
+	'MCHAT_RELATIVE_TIME'			=> 'Toon relatieve tijd voor nieuwe berichten',
+	'MCHAT_RELATIVE_TIME_EXPLAIN'	=> 'Toont “nu”, “1 minuut geleden” en zo verder voor ieder bericht. Stel in op <em>Nee</em> om altijd de volledige datum weer te geven.',
 	'MCHAT_MESSAGE_TOP'				=> 'Locatie van nieuwe chat berichten',
-	'MCHAT_MESSAGE_TOP_EXPLAIN'		=> 'De laatste berichten zullen verschijnen aan de bovenkant of aan de onderkant in de chat.',
-	'MCHAT_LOCATION'				=> 'Locatie op de index pagina',
-	'MCHAT_BOTTOM'					=> 'Onder',
-	'MCHAT_TOP'						=> 'Boven',
+	'MCHAT_MESSAGE_TOP_EXPLAIN'		=> 'Nieuwe berichten verschijnen bovenaan of onderaan in de chat.',
+	'MCHAT_LOCATION'				=> 'Locatie op de indexpagina',
+	'MCHAT_BOTTOM'					=> 'Onderaan',
+	'MCHAT_TOP'						=> 'Bovenaan',
 
 	'MCHAT_POSTS_TOPIC'				=> 'Toon nieuwe onderwerpen',
-	'MCHAT_POSTS_REPLY'				=> 'Toon nieuwe reacties',
-	'MCHAT_POSTS_EDIT'				=> 'Toon bewerkte posten',
-	'MCHAT_POSTS_QUOTE'				=> 'Toon geciteerde posten',
-	'MCHAT_POSTS_LOGIN'				=> 'Toon gebruiker logins',
+	'MCHAT_POSTS_REPLY'				=> 'Toon nieuwe antwoorden',
+	'MCHAT_POSTS_EDIT'				=> 'Toon bewerkte berichten',
+	'MCHAT_POSTS_QUOTE'				=> 'Toon geciteerde berichten',
+	'MCHAT_POSTS_LOGIN'				=> 'Toon gebruikers aanmeldingen',
 
 	'MCHAT_DATE_FORMAT'				=> 'Datum formaat',
-	'MCHAT_DATE_FORMAT_EXPLAIN'		=> 'De syntaxis is identiek aan de PHP <a href="http://www.php.net/date">datum()</a> functie.',
-	'MCHAT_CUSTOM_DATEFORMAT'		=> 'Aangepaste…',
-));
+	'MCHAT_DATE_FORMAT_EXPLAIN'		=> 'De gebruikte syntaxis is identiek aan de PHP <a href="http://www.php.net/date">datum()</a> functie.',
+	'MCHAT_CUSTOM_DATEFORMAT'		=> 'Aangepast…',
+]);

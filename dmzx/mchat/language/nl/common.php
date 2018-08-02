@@ -17,7 +17,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -35,30 +35,40 @@ if (empty($lang) || !is_array($lang))
 // Some characters for use
 // ’ » “ ” …
 
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'MCHAT_TITLE'					=> 'mChat',
-	'MCHAT_TITLE_COUNT'				=> 'mChat [<strong>%1$d</strong>]',
+	'MCHAT_TITLE_COUNT'				=> [
+		0 => 'mChat',
+		1 => 'mChat [<strong>%1$d</strong>]',
+	],
+	'MCHAT_NAVBAR_CUSTOM_PAGE'		=> 'mChat pagina',
+	'MCHAT_NAVBAR_ARCHIVE'			=> 'Archief',
+	'MCHAT_NAVBAR_RULES'			=> 'Regels',
 
 	// Who is chatting
 	'MCHAT_WHO_IS_CHATTING'			=> 'Wie is aan het chatten',
-	'MCHAT_ONLINE_USERS_TOTAL'		=> array(
-		0 => 'Niemand is aan het chatten',
+	'MCHAT_ONLINE_USERS_TOTAL'		=> [
+		0 => 'Niemand aan het chatten',
 		1 => '<strong>%1$d</strong> gebruiker is aan het chatten',
 		2 => '<strong>%1$d</strong> gebruikers zijn aan het chatten',
-	),
-	'MCHAT_ONLINE_EXPLAIN'			=> 'Gebaseerd op gebruikers activiteiten de laatste %1$s',
-	'MCHAT_HOURS'					=> array(
+	],
+	'MCHAT_ONLINE_EXPLAIN'			=> 'gebaseerd op gebruikers die actief waren in de afgelopen %1$s',
+	'MCHAT_HOURS'					=> [
 		1 => '%1$d uur',
 		2 => '%1$d uren',
-	),
-	'MCHAT_MINUTES'					=> array(
+	],
+	'MCHAT_MINUTES'					=> [
 		1 => '%1$d minuut',
 		2 => '%1$d minuten',
-	),
-	'MCHAT_SECONDS'					=> array(
+	],
+	'MCHAT_SECONDS'					=> [
 		1 => '%1$d seconde',
 		2 => '%1$d seconden',
-	),
+	],
+
+	// Custom translations for administrators
+	'MCHAT_RULES_MESSAGE'			=> '',
+	'MCHAT_STATIC_MESSAGE'			=> '',
 
 	// Post notification messages (%1$s is replaced with a link to the new/edited post, %2$s is replaced with a link to the forum)
 	'MCHAT_NEW_POST'				=> 'poste een nieuwe topic in: %1$s in %2$s',
@@ -70,4 +80,4 @@ $lang = array_merge($lang, array(
 	'MCHAT_NEW_EDIT'				=> 'bewerkte een post: %1$s in %2$s',
 	'MCHAT_NEW_EDIT_DELETED'		=> 'bewerkte een post dat werd verwijderd',
 	'MCHAT_NEW_LOGIN'				=> 'heeft zich net aangemeld',
-));
+]);
