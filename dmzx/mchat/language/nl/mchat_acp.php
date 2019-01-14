@@ -5,7 +5,6 @@
  * @package phpBB Extension - mChat
  * @copyright (c) 2016 dmzx - http://www.dmzx-web.net
  * @copyright (c) 2016 kasimi - https://kasimi.net
- * Nederlandse vertaling @ Solidjeuh <http://www.muziekpromo.net> 
  * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
  *
  */
@@ -143,12 +142,7 @@ $lang = array_merge($lang, [
 	'TOO_LARGE_MCHAT_FLOOD_TIME'					=> 'De waarde van de flood tijd is te groot.',
 	'TOO_SMALL_MCHAT_INDEX_HEIGHT'					=> 'De hoogte van de index waarde is te klein.',
 	'TOO_LARGE_MCHAT_INDEX_HEIGHT'					=> 'De hoogte van de index waarde is te groot.',
-	'TOO_LARGE_MCHAT_MAX_MESSAGE_LNGTH'				=> 'De max. bericht lengte waarde is te groot.',
 	'TOO_LARGE_MCHAT_MAX_INPUT_HEIGHT'				=> 'De max. invoer hoogte waarde is te groot.',
-	'TOO_SMALL_MCHAT_MESSAGE_NUM_CUSTOM'			=> 'Het aantal berichten dat op de mChat pagina moet worden weergegeven, is te klein.',
-	'TOO_LARGE_MCHAT_MESSAGE_NUM_CUSTOM'			=> 'Het aantal berichten dat moet worden weergegeven op de mChat pagina is te groot.',
-	'TOO_SMALL_MCHAT_MESSAGE_NUM_INDEX'				=> 'Het aantal berichten dat op de index pagina moet worden weergegeven, is te klein.',
-	'TOO_LARGE_MCHAT_MESSAGE_NUM_INDEX'				=> 'Het aantal berichten dat op de indexpagina moet worden weergegeven, is te groot.',
 	'TOO_SMALL_MCHAT_MESSAGE_NUM_ARCHIVE'			=> 'Het aantal berichten dat op de archief pagina moet worden weergegeven, is te klein.',
 	'TOO_LARGE_MCHAT_MESSAGE_NUM_ARCHIVE'			=> 'Het aantal berichten dat op de archief pagina moet worden weergegeven, is te groot.',
 	'TOO_SMALL_MCHAT_REFRESH'						=> 'De vernieuwing waarde is te klein.',

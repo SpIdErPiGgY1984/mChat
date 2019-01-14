@@ -5,7 +5,6 @@
  * @package phpBB Extension - mChat
  * @copyright (c) 2016 dmzx - http://www.dmzx-web.net
  * @copyright (c) 2016 kasimi - https://kasimi.net
- * Nederlandse vertaling @ Solidjeuh <http://www.muziekpromo.net> 
  * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
  *
  */
@@ -46,9 +45,6 @@ $lang = array_merge($lang, [
 	'MCHAT_STATS_INDEX_EXPLAIN'		=> 'Toon Wie is aan het chatten onder de <em>Wie is online</em> sectie op de index pagina.',
 	'MCHAT_AVATARS'					=> 'Toon avatars',
 	'MCHAT_CAPITAL_LETTER'			=> 'Maak van de eerste letter een hoofdletter in je bericht',
-	'MCHAT_CHAT_AREA'				=> 'Input type',
-	'MCHAT_INPUT_AREA'				=> 'Input veld',
-	'MCHAT_TEXT_AREA'				=> 'Tekst veld',
 	'MCHAT_POSTS'					=> 'Toon nieuwe berichten. (momenteel allemaal uitgeschakeld, kan worden ingeschakeld in de sectie mChat Algemene instellingen in het beheerderspaneel)',
 	'MCHAT_DISPLAY_CHARACTER_COUNT'	=> 'Geef het aantal karakters weer bij het typen van een bericht',
 	'MCHAT_RELATIVE_TIME'			=> 'Toon relatieve tijd voor nieuwe berichten',

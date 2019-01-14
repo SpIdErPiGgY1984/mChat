@@ -5,7 +5,6 @@
  * @package phpBB Extension - mChat
  * @copyright (c) 2016 dmzx - http://www.dmzx-web.net
  * @copyright (c) 2016 kasimi - https://kasimi.net
- * Nederlandse vertaling @ Solidjeuh <http://www.muziekpromo.net> 
  * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
  *
  */
@@ -57,14 +56,13 @@ $lang = array_merge($lang, [
 	'ACL_U_MCHAT_CHARACTER_COUNT'			=> 'Kan aanpassen: <em>Toon aantal karakters</em>',
 	'ACL_U_MCHAT_DATE'						=> 'Kan aanpassen: <em>Datum formaat</em>',
 	'ACL_U_MCHAT_INDEX'						=> 'Kan aanpassen: <em>Toon op index</em>',
-	'ACL_U_MCHAT_INPUT_AREA'				=> 'Kan aanpassen: <em>Input type</em>',
 	'ACL_U_MCHAT_LOCATION'					=> 'Kan aanpassen: <em>Locatie van mChat op de index pagina</em>',
 	'ACL_U_MCHAT_MESSAGE_TOP'				=> 'Kan aanpassen: <em>Locatie van nieuwe chat berichten</em>',
 	'ACL_U_MCHAT_POSTS'						=> 'Kan aanpassen: <em>Toon nieuwe berichten</em>',
 	'ACL_U_MCHAT_RELATIVE_TIME'				=> 'Kan aanpassen: <em>Toon relatieve tijd</em>',
 	'ACL_U_MCHAT_SOUND'						=> 'Kan aanpassen: <em>Speel geluiden</em>',
 	'ACL_U_MCHAT_WHOIS_INDEX'				=> 'Kan aanpassen: <em>Laat zien wie aan het chatten is onder de chat</em>',
-	'ACL_U_MCHAT_STATS_INDEX'				=> 'Kan aanpassen: <em>Laat zien wie aan het chatten is in het gedeelte met statistieken</em>',
+	'ACL_U_MCHAT_STATS_INDEX'				=> 'Kan aanpassen <em>Laat zien wie aan het chatten is in het gedeelte met statistieken</em>',
 
 	'ACL_A_MCHAT'							=> 'Kan mChat instellingen beheren',
 ]);
