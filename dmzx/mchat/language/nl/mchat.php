@@ -63,7 +63,7 @@ $lang = array_merge($lang, [
 	'MCHAT_OK'						=> 'OK',
 	'MCHAT_PAUSE'					=> 'Gepauzeerd',
 	'MCHAT_PERMISSIONS'				=> 'Verander gebruikers permissie',
-	'MCHAT_REFRESHING'				=> 'Vernieuwen…',	'MCHAT_REFRESHING'				=> 'Vernieuwen…',
+	'MCHAT_REFRESHING'				=> 'Vernieuwen…',
 	'MCHAT_RESPOND'					=> 'Reageren op gebruiker',
 	'MCHAT_SMILES'					=> 'Smileys',
 	'MCHAT_TOTALMESSAGES'			=> 'Totaal aantal berichten: <strong>%1$d</strong>',

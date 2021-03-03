@@ -131,6 +131,10 @@ $lang = array_merge($lang, [
 	'MCHAT_PURGE_CONFIRM'							=> 'Bevestig het verwijderen van alle berichten',
 	'MCHAT_PURGED'									=> 'Alle mChat berichten zijn succesvol verwijderd',
 
+	'MCHAT_REPARSER_STATUS'							=> 'Status bericht reparser',
+	'MCHAT_REPARSER_ACTIVE'							=> 'actief',
+	'MCHAT_REPARSER_FINISHED'						=> 'afgewerkt',
+
 	// '%1$s' contains 'Retain posts' and 'Delete posts' respectively
 	'MCHAT_RETAIN_MESSAGES'							=> '%1$s en behoud mChat berichten',
 	'MCHAT_DELETE_MESSAGES'							=> '%1$s en verwijder mChat berichten',
